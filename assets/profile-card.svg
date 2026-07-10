@@ -92,6 +92,11 @@
     .blue { fill: #0969da; }
     .muted { fill: #afb8c1; }
     .cmd { fill: #3f4650; }
+    .note {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      fill: #8c959f;
+    }
     .stat-value {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 30px;
@@ -117,16 +122,18 @@
 
 
 
-  <g transform="translate(0,650)">
-    <line x1="40" y1="0" x2="860" y2="0" stroke="#e2e6ea"/>
-
-    <text x="40" y="44" class="prompt">
-      <tspan class="green">yejingksdpwls@github</tspan><tspan class="blue">:~/stats</tspan><tspan class="muted">$</tspan><tspan class="cmd"> git log --summary</tspan>
-    </text>
-
+      <g transform="translate(0,650)">
+        <line x1="40" y1="0" x2="860" y2="0" stroke="#e2e6ea"/>
     
+        <text x="40" y="44" class="prompt">
+          <tspan class="green">yejingksdpwls@github</tspan><tspan class="blue">:~/stats</tspan><tspan class="muted">$</tspan><tspan class="cmd"> git log --summary --since=1y</tspan>
+        </text>
+    
+        <text x="40" y="66" class="note">based on the last 365 days</text>
+    
+        
     <rect x="32" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="108.0" y="130" text-anchor="middle" class="stat-value">195</text>
+    <text x="108.0" y="130" text-anchor="middle" class="stat-value">196</text>
     <text x="108.0" y="156" text-anchor="middle" class="stat-label">Commits</text>
     
     <rect x="198" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
@@ -145,11 +152,11 @@
     <text x="772.0" y="130" text-anchor="middle" class="stat-value">11</text>
     <text x="772.0" y="156" text-anchor="middle" class="stat-label">Repos</text>
     
-
-    <text x="32" y="230" class="section-title">Most Used Languages</text>
+    
+        <text x="32" y="230" class="section-title">Most Used Languages</text>
 <rect x="32" y="278" width="820" height="12" rx="6" fill="#eef0f4"/>
-<rect x="32.00" y="278" width="598.65" height="12" rx="6" fill="#DA5B0B"/>
-<rect x="630.65" y="278" width="143.06" height="12" rx="0" fill="#3572A5"/>
+<rect x="32.00" y="278" width="598.64" height="12" rx="6" fill="#DA5B0B"/>
+<rect x="630.64" y="278" width="143.06" height="12" rx="0" fill="#3572A5"/>
 <rect x="773.70" y="278" width="68.94" height="12" rx="0" fill="#3178c6"/>
 <rect x="842.64" y="278" width="9.36" height="12" rx="6" fill="#e34c26"/>
 <circle cx="38" cy="317" r="5" fill="#DA5B0B"/>
@@ -160,8 +167,8 @@
 <text x="434" y="322" class="legend">TypeScript 8.4%</text>
 <circle cx="608" cy="317" r="5" fill="#e34c26"/>
 <text x="624" y="322" class="legend">HTML 0.8%</text>
-  </g>
-
+      </g>
+    
 
 
   <line x1="40" y1="1011" x2="860" y2="1011" stroke="#f0f2f4"/>
