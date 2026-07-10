@@ -6,9 +6,8 @@
 <img src="./assets/profile-card.svg" alt="한예진 · Data Analyst" width="880" />
 <br /><br />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yejingksdpwls&theme=github" width="205" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yejingksdpwls&theme=github" width="205" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yejingksdpwls&theme=github" width="205" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yejingksdpwls&theme=github&utcOffset=9" width="205" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yejingksdpwls&theme=github" width="250" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yejingksdpwls&theme=github" width="250" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yejingksdpwls&theme=github&utcOffset=9" width="250" />
 
 </div>
