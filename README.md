@@ -4,6 +4,6 @@
 <div align="center">
 
 <img src="./assets/profile-card.svg" alt="한예진 · Data Analyst" width="880" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yejingksdpwls&theme=github-light&hide_border=true&area=true" width="880" />
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="880" />
 
 </div>
