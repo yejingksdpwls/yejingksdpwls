@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1010" viewBox="0 0 900 1010" role="img" aria-label="GitHub README profile card with skills badges">
-  <rect x="1" y="1" width="898" height="1008" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1080" viewBox="0 0 900 1080" role="img" aria-label="GitHub README profile card with skills badges">
+  <rect x="1" y="1" width="898" height="1078" rx="12" fill="#ffffff" stroke="#d0d7de"/>
   <path d="M1 13 A12 12 0 0 1 13 1 L887 1 A12 12 0 0 1 899 13 L899 44 L1 44 Z" fill="#f6f8fa"/>
   <line x1="1" y1="44" x2="899" y2="44" stroke="#d0d7de"/>
   <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
@@ -88,7 +88,7 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
       font-size: 15px;
     }
-    .green { fill: #1a7f37; font-weight: 700; }
+    .green { fill: #1a7f37; font-weight: 400; }
     .blue { fill: #0969da; }
     .muted { fill: #afb8c1; }
     .cmd { fill: #3f4650; }
@@ -121,12 +121,12 @@
     <line x1="40" y1="0" x2="860" y2="0" stroke="#e2e6ea"/>
 
     <text x="40" y="44" class="prompt">
-      <tspan class="green">hanyejin@github</tspan><tspan class="blue">:~/stats</tspan><tspan class="muted">$</tspan><tspan class="cmd"> git log --summary</tspan>
+      <tspan class="green">yejingksdpwls@github</tspan><tspan class="blue">:~/stats</tspan><tspan class="muted">$</tspan><tspan class="cmd"> git log --summary</tspan>
     </text>
 
     
     <rect x="32" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="108.0" y="130" text-anchor="middle" class="stat-value">193</text>
+    <text x="108.0" y="130" text-anchor="middle" class="stat-value">195</text>
     <text x="108.0" y="156" text-anchor="middle" class="stat-label">Commits</text>
     
     <rect x="198" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
@@ -164,8 +164,8 @@
 
 
 
-  <line x1="40" y1="946" x2="860" y2="946" stroke="#f0f2f4"/>
-  <text x="40" y="980" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <line x1="40" y1="1011" x2="860" y2="1011" stroke="#f0f2f4"/>
+  <text x="40" y="1045" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
     <tspan fill="#1a7f37">yejingksdpwls@github</tspan><tspan fill="#0969da"> ~&gt;</tspan><tspan fill="#afb8c1"> # Thanks for stopping by :)</tspan>
   </text>
 
