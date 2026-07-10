@@ -275,7 +275,7 @@ def stats_style() -> str:
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
       font-size: 15px;
     }
-    .green { fill: #1a7f37; font-weight: 700; }
+    .green { fill: #1a7f37; font-weight: 400; }
     .blue { fill: #0969da; }
     .muted { fill: #afb8c1; }
     .cmd { fill: #3f4650; }
@@ -353,9 +353,9 @@ def generate_svg(data: dict) -> str:
 
     base_svg = BASE_PROFILE_PATH.read_text(encoding="utf-8")
 
-    final_height = 1010
+    final_height = 1080
     stats_y = 650
-    footer_y = 980
+    footer_y = 1045
 
     base_svg = remove_existing_footer(base_svg)
     base_svg = resize_svg(base_svg, final_height)
