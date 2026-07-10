@@ -279,6 +279,11 @@ def stats_style() -> str:
     .blue { fill: #0969da; }
     .muted { fill: #afb8c1; }
     .cmd { fill: #3f4650; }
+    .note {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11px;
+      fill: #8c959f;
+    }
     .stat-value {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 30px;
@@ -324,18 +329,20 @@ def build_stats_section(data: dict, y_offset: int) -> str:
     ]
 
     return f"""
-  <g transform="translate(0,{y_offset})">
-    <line x1="40" y1="0" x2="860" y2="0" stroke="#e2e6ea"/>
-
-    <text x="40" y="44" class="prompt">
-      <tspan class="green">{esc(TERMINAL_NAME)}@github</tspan><tspan class="blue">:~/stats</tspan><tspan class="muted">$</tspan><tspan class="cmd"> git log --summary</tspan>
-    </text>
-
-    {''.join(cards)}
-
-    {language_section(languages, 32, 230)}
-  </g>
-"""
+      <g transform="translate(0,{y_offset})">
+        <line x1="40" y1="0" x2="860" y2="0" stroke="#e2e6ea"/>
+    
+        <text x="40" y="44" class="prompt">
+          <tspan class="green">{esc(TERMINAL_NAME)}@github</tspan><tspan class="blue">:~/stats</tspan><tspan class="muted">$</tspan><tspan class="cmd"> git log --summary --since=1y</tspan>
+        </text>
+    
+        <text x="40" y="66" class="note">based on the last 365 days</text>
+    
+        {''.join(cards)}
+    
+        {language_section(languages, 32, 230)}
+      </g>
+    """
 
 
 def build_footer(y: int) -> str:
