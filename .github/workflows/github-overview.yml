@@ -1,12 +1,12 @@
-name: GitHub Overview SVG
+name: Profile Card SVG
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *" # 매일 새벽 3시 KST / GitHub cron은 UTC 기준
+    - cron: "0 18 * * *" # 매일 새벽 3시 KST / UTC 기준
 
 jobs:
-  build-github-overview:
+  build-profile-card:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate GitHub overview SVG
-        run: python scripts/generate_github_overview.py
+      - name: Generate profile card SVG
+        run: python scripts/generate_profile_card.py
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GITHUB_USERNAME: yejingksdpwls
@@ -29,11 +29,11 @@ jobs:
 
       - name: Commit generated SVG
         run: |
-          if [ -n "$(git status --porcelain assets/github-overview.svg)" ]; then
+          if [ -n "$(git status --porcelain assets/profile-card.svg)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add assets/github-overview.svg
-            git commit -m "chore: update github overview svg"
+            git add assets/profile-card.svg
+            git commit -m "chore: update profile card svg"
             git push
           else
             echo "No changes to commit"
