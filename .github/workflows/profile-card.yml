@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GITHUB_USERNAME: yejingksdpwls
-          TERMINAL_NAME: hanyejin
+          TERMINAL_NAME: yejingksdpwls
 
       - name: Commit generated SVG
         run: |
