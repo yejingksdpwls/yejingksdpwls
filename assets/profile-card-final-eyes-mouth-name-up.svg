@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="524" viewBox="0 0 900 524" role="img" aria-label="GitHub README profile card">
+  <rect x="1" y="1" width="898" height="522" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <path d="M1 13 A12 12 0 0 1 13 1 L887 1 A12 12 0 0 1 899 13 L899 44 L1 44 Z" fill="#f6f8fa"/>
+  <line x1="1" y1="44" x2="899" y2="44" stroke="#d0d7de"/>
+
+  <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="22" r="6" fill="#27c93f"/>
+  <text x="450" y="27" text-anchor="middle" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#4a525c">yejingksdpwls@portfolio: ~</text>
+  <text x="860" y="27" text-anchor="end" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#afb8c1">zsh</text>
+
+  <text x="40" y="82" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <tspan fill="#1a7f37">yejingksdpwls@github</tspan><tspan fill="#0969da"> ~&gt;</tspan><tspan fill="#4a525c"> fetch.sh -u yejingksdpwls</tspan>
+  </text>
+
+  <!-- avatar card -->
+  <rect x="40" y="108" width="164" height="164" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <g aria-label="minimal gray profile character with eyes and smile">
+    <rect x="54" y="118" width="136" height="144" rx="28" fill="#efefef"/>
+    <rect x="68" y="132" width="108" height="116" rx="22" fill="#f7f7f7" opacity="0.9"/>
+    <circle cx="96" cy="174" r="7" fill="#7e8085"/>
+    <circle cx="148" cy="174" r="7" fill="#7e8085"/>
+    <path d="M96 207 C108 217 136 217 148 207" fill="none" stroke="#7e8085" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- name moved lower for wider spacing -->
+  <path transform="translate(0,-8)" d="m 93.775006,313.225 q -1.35,0 -2.35,-0.35 -1,-0.375 -1.675,-0.975 -0.675,-0.6 -1.025,-1.35 -0.325,-0.775 -0.325,-1.575 v -0.75 q 0,-0.825 0.325,-1.575 0.35,-0.775 1.025,-1.35 0.675,-0.6 1.675,-0.95 1,-0.375 2.35,-0.375 1.35,0 2.35,0.375 1,0.35 1.675,0.95 0.675,0.6 1,1.375 0.35,0.75 0.35,1.55 v 0.75 q 0,0.8 -0.35,1.575 -0.325,0.75 -1,1.35 -0.675,0.6 -1.675,0.975 -1,0.35 -2.35,0.35 z m 14.575004,-5.775 h -3.275 v 7.725 h -2.45 V 298.45 h 2.45 v 6.85 h 3.275 z M 93.475006,319.1 h 12.225004 v 2.15 H 91.000006 v -6.375 h 2.475 z m 6.900004,-16 H 87.150006 V 301 h 5.4 v -2.775 h 2.45 V 301 h 5.375004 z m -6.600004,8.15 q 0.75,0 1.325,-0.2 0.575,-0.2 0.95,-0.525 0.375,-0.35 0.55,-0.775 0.2,-0.45 0.2,-0.9 v -0.5 q 0,-0.45 -0.2,-0.875 -0.175,-0.45 -0.55,-0.775 -0.375,-0.35 -0.95,-0.55 -0.55,-0.2 -1.325,-0.2 -0.775,0 -1.35,0.2 -0.55,0.2 -0.925,0.55 -0.375,0.325 -0.575,0.775 -0.175,0.425 -0.175,0.875 v 0.5 q 0,0.45 0.175,0.9 0.2,0.425 0.575,0.775 0.375,0.325 0.95,0.525 0.575,0.2 1.325,0.2 z M 117.025,300.175 q 3.525,0 4.6,3.35 h 3.1 v -4.6 h 2.4 v 21.45 h -2.4 V 312.4 h -3.05 q -1.05,3.475 -4.65,3.475 -2.5,0 -3.775,-1.65 -1.275,-1.675 -1.275,-4.975 v -2.45 q 0,-6.625 5.05,-6.625 z M 131.5,321.5 h -2.425 v -23.05 h 2.425 z m -14.475,-7.8 q 1.475,0 2.1,-1.2 0.625,-1.2 0.625,-3.525 v -1.9 q 0,-2.35 -0.65,-3.525 -0.625,-1.175 -2.075,-1.175 -1.45,0 -2.1,1.175 -0.625,1.175 -0.625,3.525 v 1.9 q 0,2.35 0.625,3.55 0.65,1.175 2.1,1.175 z m 5.05,-4.45 q 0,0.275 -0.025,0.525 0,0.25 -0.025,0.5 h 2.7 v -4.625 h -2.7 q 0.025,0.275 0.025,0.575 0.025,0.275 0.025,0.575 z m 21.475,-1.825 q -0.125,0.325 -0.625,0.875 -0.475,0.55 -1.05,1.075 -0.8,0.725 -1.825,1.5 -1,0.775 -2.05,1.5 l -1.45,-1.775 q 1.2,-0.85 2.3,-1.675 1.1,-0.85 1.75,-1.475 0.45,-0.425 0.75,-0.85 0.325,-0.425 0.5,-0.875 0.2,-0.475 0.275,-1.025 0.1,-0.55 0.1,-1.225 v -1.425 h -4.9 v -2.125 h 12.025 v 2.125 h -4.625 v 1.325 q 0,1.2 0.25,2 0.25,0.775 1.05,1.475 0.9,0.8 1.9,1.55 1,0.725 2.1,1.45 l -1.4,1.8 q -0.975,-0.675 -1.85,-1.325 Q 145.9,309.65 145,308.9 q -0.575,-0.475 -0.95,-0.825 -0.35,-0.375 -0.475,-0.65 z m -0.4,11.675 h 12.4 v 2.15 h -14.875 v -7.775 h 2.475 z m 9.475,-4.225 V 298.45 h 2.45 v 16.425 z" fill="#1f2328"/>
+  <text x="122" y="330" text-anchor="middle" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#afb8c1">~/yejingksdpwls</text>
+
+  <!-- right column -->
+  <rect x="246" y="102" width="188" height="22" rx="3" fill="#1a7f37" fill-opacity="0.12"/>
+  <text x="252" y="118" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" fill="#1a7f37">yejingksdpwls@GitHub</text>
+  <line x1="250" y1="140" x2="640" y2="140" stroke="#e2e6ea"/>
+
+  <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15">
+    <text x="250" y="178" fill="#0969da">Role:</text>
+    <text x="372" y="178" fill="#1f2328">Data Analyst</text>
+    <text x="250" y="205" fill="#0969da">Focus:</text>
+    <text x="372" y="205" fill="#1f2328">Data Analysis · Visualization</text>
+    <text x="250" y="232" fill="#0969da">Stack:</text>
+    <text x="372" y="232" fill="#1f2328">Python · SQL · Excel</text>
+    <text x="250" y="259" fill="#0969da">IDE:</text>
+    <text x="372" y="259" fill="#1f2328">VS Code · Jupyter</text>
+    <text x="250" y="286" fill="#0969da">OS:</text>
+    <text x="372" y="286" fill="#1f2328">Windows 11</text>
+  </g>
+
+  <rect x="246" y="336" width="86" height="22" rx="3" fill="#1a7f37" fill-opacity="0.12"/>
+  <text x="252" y="352" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" fill="#1a7f37">Contact</text>
+  <line x1="250" y1="376" x2="640" y2="376" stroke="#e2e6ea"/>
+
+  <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15">
+    <text x="250" y="414" fill="#0969da">Email:</text>
+    <text x="370" y="414" fill="#1f2328">yejingksdpwls@gmail.com</text>
+    <text x="250" y="441" fill="#0969da">Blog:</text>
+    <text x="370" y="441" fill="#1f2328">velog.io/@yejingksdpwls</text>
+    <text x="250" y="468" fill="#0969da">GitHub:</text>
+    <text x="370" y="468" fill="#1f2328">github.com/yejingksdpwls</text>
+  </g>
+
+  <text x="40" y="500" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <tspan fill="#1a7f37">yejingksdpwls@github</tspan><tspan fill="#0969da"> ~&gt;</tspan><tspan fill="#afb8c1"> # Thanks for stopping by :)</tspan>
+  </text>
+</svg>
