@@ -5,7 +5,8 @@
 
 <img src="./assets/profile-card.svg" alt="한예진 · Data Analyst" width="880" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yejingksdpwls&theme=github" width="400" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yejingksdpwls&theme=github&utcOffset=9" width="400" />
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=yejingksdpwls&theme=github-light&hide_border=true&area=true" width="880" />
 
 </div>
