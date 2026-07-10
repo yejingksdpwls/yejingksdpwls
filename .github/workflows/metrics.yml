@@ -3,7 +3,7 @@ name: Metrics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *" # 매일 새벽 3시 KST / GitHub cron은 UTC 기준
+    - cron: "0 18 * * *" # 매일 새벽 3시 KST / UTC 기준
 
 jobs:
   github-metrics:
@@ -20,7 +20,6 @@ jobs:
 
           template: classic
           base: header, activity, community, repositories, metadata
-
           config_timezone: Asia/Seoul
 
           plugin_languages: yes
@@ -29,3 +28,6 @@ jobs:
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+          plugin_repositories: yes
+          plugin_repositories_pinned: 4
