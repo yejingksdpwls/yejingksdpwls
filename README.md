@@ -4,6 +4,5 @@
 <div align="center">
 
 <img src="./assets/profile-card.svg" alt="한예진 · Data Analyst" width="880" />
-<img src="./assets/github-overview.svg" alt="GitHub Overview" width="880" />
 
 </div>
