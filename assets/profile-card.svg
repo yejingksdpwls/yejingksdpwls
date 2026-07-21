@@ -133,7 +133,7 @@
     
         
     <rect x="32" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="108.0" y="130" text-anchor="middle" class="stat-value">231</text>
+    <text x="108.0" y="130" text-anchor="middle" class="stat-value">233</text>
     <text x="108.0" y="156" text-anchor="middle" class="stat-label">Commits</text>
     
     <rect x="198" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
@@ -155,16 +155,16 @@
     
         <text x="32" y="230" class="section-title">Most Used Languages</text>
 <rect x="32" y="278" width="820" height="12" rx="6" fill="#eef0f4"/>
-<rect x="32.00" y="278" width="553.75" height="12" rx="6" fill="#DA5B0B"/>
-<rect x="585.75" y="278" width="137.64" height="12" rx="0" fill="#3572A5"/>
-<rect x="723.39" y="278" width="120.04" height="12" rx="0" fill="#3178c6"/>
-<rect x="843.42" y="278" width="8.58" height="12" rx="6" fill="#e34c26"/>
+<rect x="32.00" y="278" width="540.29" height="12" rx="6" fill="#DA5B0B"/>
+<rect x="572.29" y="278" width="144.35" height="12" rx="0" fill="#3572A5"/>
+<rect x="716.64" y="278" width="126.99" height="12" rx="0" fill="#3178c6"/>
+<rect x="843.63" y="278" width="8.37" height="12" rx="6" fill="#e34c26"/>
 <circle cx="38" cy="317" r="5" fill="#DA5B0B"/>
-<text x="54" y="322" class="legend">Jupyter Notebook 67.5%</text>
+<text x="54" y="322" class="legend">Jupyter Notebook 65.9%</text>
 <circle cx="228" cy="317" r="5" fill="#3572A5"/>
-<text x="244" y="322" class="legend">Python 16.8%</text>
+<text x="244" y="322" class="legend">Python 17.6%</text>
 <circle cx="418" cy="317" r="5" fill="#3178c6"/>
-<text x="434" y="322" class="legend">TypeScript 14.6%</text>
+<text x="434" y="322" class="legend">TypeScript 15.5%</text>
 <circle cx="608" cy="317" r="5" fill="#e34c26"/>
 <text x="624" y="322" class="legend">HTML 0.7%</text>
       </g>
