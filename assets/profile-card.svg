@@ -133,7 +133,7 @@
     
         
     <rect x="32" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="108.0" y="130" text-anchor="middle" class="stat-value">233</text>
+    <text x="108.0" y="130" text-anchor="middle" class="stat-value">232</text>
     <text x="108.0" y="156" text-anchor="middle" class="stat-label">Commits</text>
     
     <rect x="198" y="86" width="152" height="92" rx="10" fill="#ffffff" stroke="#d0d7de"/>
